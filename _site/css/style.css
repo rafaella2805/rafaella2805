@@ -152,7 +152,7 @@ input{outline: none !important;}
 .banner-master .bloco{
 	background-color: rgba(0,0,0,0.6); 
 	width: 100%;
-	height: 160px;
+	height: 100px;
 	bottom: 0;
 	position: absolute;
 	padding: 10px 0 0 34px;
@@ -184,6 +184,7 @@ input{outline: none !important;}
 }
 .view p{ font-family: "Open sans"; font-size: 1.6em; padding: 50px 0 15px 0;}
 .view a{ color: #fff; font-size: 1.6em; border: 1px solid #fff; border-radius: 4px; padding: 8px;}
+.item-5 .content-default a{ color: #fff; font-size: 1.2em; border: 1px solid #fff; border-radius: 4px; padding: 4px; margin-top: 10px !important;}
 .view a:hover{background-color: #fff; color: #323232; text-decoration: none;}
 .view .mask{
 	width: 100%;
@@ -205,6 +206,9 @@ input{outline: none !important;}
 }
 .view .color2{background-color: rgba(124,104,174,0);}
 .view:hover .color2{background-color: rgba(124,104,174,1);}
+
+.view .color3{background-color: rgba(93,92,92,0);}
+.view:hover .color3{background-color: rgba(93,92,92,1);}
 .view h3{
 	position: absolute;
 	bottom: 5px;
@@ -268,7 +272,7 @@ input{outline: none !important;}
 }
 #descobrir .item-5{
 	height: 240px;
-	background: url("../img/img-desenvolver-3.jpg") no-repeat center center scroll;
+	background: url("../img/img-descobrir-5.jpg") no-repeat center center scroll;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -495,6 +499,44 @@ input{outline: none !important;}
 	right: 10px;
 	left: auto;
 	background-position: -20px 0px;
+}
+
+/*-------------------CALL ACTION------------------------*/
+#call-action {text-align:center; background-color: #7a68ae; padding:30px 0 20px 0; text-align: center; }
+#call-action h2 {
+	display: inline-block;
+	color:#fff;
+	font-family: "Oswald";
+	font-weight: 300;
+	font-size: 35px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+.btn-master {
+display: inline-block;
+margin-top: 20px;
+padding: 5px 10px;
+border: 1px solid black;
+border-radius: 5px;
+font-family: "Oswald", sans-serif;
+font-weight: 400;
+font-size: 18px;
+color: black;
+-webkit-transition: all 0.3s ease-in-out;
+-moz-transition: all 0.3s ease-in-out;
+transition: all 0.3s ease-in-out;
+}
+#call-action .btn-master{
+	border-color: #fff;
+	color: #fff;
+	font-size: 24px;
+	border-radius: 10px;
+	margin-top: 0;
+}
+#call-action .btn-master:hover{
+	background-color: inherit;
+	text-decoration: underline;
+	margin-top: 0;
 }
 
 /* ------------- Footer ---------------*/
