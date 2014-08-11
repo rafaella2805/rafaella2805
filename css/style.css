@@ -184,7 +184,7 @@ input{outline: none !important;}
 }
 .view p{ font-family: "Open sans"; font-size: 1.6em; padding: 50px 0 15px 0;}
 .view a{ color: #fff; font-size: 1.6em; border: 1px solid #fff; border-radius: 4px; padding: 8px;}
-.item-5 .content-default a{ color: #fff; font-size: 1.2em; border: 1px solid #fff; border-radius: 4px; padding: 4px; margin-top: 10px !important;}
+.item-2 .content-default a, .item-5 .content-default a{ color: #fff; font-size: 1.2em; border: 1px solid #fff; border-radius: 4px; padding: 4px; margin-top: 10px !important;}
 .view a:hover{background-color: #fff; color: #323232; text-decoration: none;}
 .view .mask{
 	width: 100%;
